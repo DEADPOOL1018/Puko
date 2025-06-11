@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('/img/1.jpg');
+  background-size: cover;
+  width: 95%;
+  height: 95%;
+}
+
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #fff;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #555;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="tel"],
+form textarea,
+form select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+form textarea {
+  resize: vertical;
+}
+
+button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  background-color: hotpink;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color:#c11c84 ;
+}
